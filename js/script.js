@@ -7,7 +7,6 @@ btnAdicionar.onclick = () => {
     const entrada = document.createElement("li");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-
     const textnode = document.createTextNode(texto.value);
 
     if(texto.value == "" || !/\S/.test(texto.value)) {
