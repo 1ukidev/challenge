@@ -16,6 +16,7 @@ btnAdicionar.onclick = () => {
         entrada.appendChild(checkbox);
         entrada.appendChild(textnode);
         lista.appendChild(entrada);
+        texto.value = "";
     }
 };
 
