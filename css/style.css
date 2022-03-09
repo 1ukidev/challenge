@@ -1,0 +1,25 @@
+.centralizar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 5px 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #ee1303
+}
